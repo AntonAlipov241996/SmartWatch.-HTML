@@ -1,0 +1,776 @@
+body {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 43px;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 40px;
+   
+}
+
+/*burger*/
+.header__burger {
+    position: fixed;
+    width: 80px;
+    height: 80px;
+    top: 10px;
+    left: 10px;
+    z-index: 30;
+    border-radius: 50%;
+}
+
+
+.burger__watch,
+.burger__watch::after,
+.burger__watch::before {
+position: absolute;
+width: 40px;
+height: 6px;
+background-color: black;
+}
+
+.burger__watch {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -59%);
+}
+
+
+.burger__watch::before{
+content: '';
+top: -12px;
+}
+
+.burger__watch::after {
+content: '';
+top: 12px;
+}
+
+
+
+.header-container {
+    display: flex;
+    width: 1440px;
+    padding-top: 104px;
+    padding-left: 133px;
+    padding-right: 133px;
+    padding-bottom: 10px;
+    background-color: white;
+}
+
+.models {
+margin-left: 300px;
+}
+
+
+
+/*watch*/
+.header__title {
+    
+    margin-top: 13px;
+    font-size: 80px;
+    line-height: 45px;
+    font-weight: 40px;
+}
+
+/*Huawei*/
+.header__suptitle {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+}
+
+/*description*/
+.header__description {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+
+}
+
+.buy {
+    display: flex;
+    
+}
+
+/*buy watch*/
+.buy__link {
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+}
+
+/*price*/
+.price {
+font-size:32px;
+margin-top: 22px;
+margin-left: 45px;
+}
+
+
+
+/*image-huawey*/
+.header__image{
+    margin-right: -50px;
+    margin-top: 80px;
+    display: flex;
+    position:absolute;
+    top:0;
+    right: 0;
+ 
+    
+}
+
+.About__honor {
+    margin-top: 600px;
+
+}
+
+
+.models1 {
+    margin-left: 300px;
+    margin-bottom: 43px;
+    font-size: 50px;
+    line-height: 45px;
+    font-weight: 40px;
+}
+
+
+/*Honor*/
+.honor {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 320px;
+   
+}
+
+.items__honor {
+ margin-top: 0px;
+   
+
+}
+
+.models1 {
+    margin-top: 100px;
+    margin-right: 570px;
+}
+
+
+/*honor*/
+.honor {
+margin-right: 450px;
+}
+
+
+
+/*photo-honor*/
+.image2 {
+   
+    margin-top: -500px;
+    margin-left: 930px;
+    justify-content: center;
+    width: 550px;
+    height: 580px;
+
+}
+
+/*description-honor*/
+.description__honor {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+/*buy-honor*/
+.buy__honor {
+    display: flex;
+    margin-left: 145px;    
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top: -50px;
+    
+}
+
+/*price-honor*/
+.price__honor {
+    font-size:32px;
+    margin-top: -55px;
+    margin-bottom: 0%;
+    margin-left: 450px;
+    margin-right: 400px;
+
+}
+
+.models2 {
+    margin-right:50px ;
+
+}
+
+.about__MT3 {
+    margin-right: 300px;
+    margin-top: 200px;
+}
+
+/*MT3*/
+.MT3 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 300px;
+    
+}
+   
+/*description-MT3*/
+.description__MT3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+
+/*image MT3*/
+.image__MT3 {
+ 
+    margin-top: -490px;
+    margin-left: 970px;
+    justify-content: center;
+    width: 380px;
+    height: 500px;
+}
+
+
+/*buy-MT3*/
+.buy__MT3 {
+    display: flex;
+    margin-left: 145px;   
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top: 5px;
+}
+
+
+/*price-MT3*/
+.price__MT3 {
+    font-size:32px;
+    margin-top: -55px;
+    margin-bottom: 0%;
+    margin-left: 450px;
+    margin-right: 400px;
+}
+
+
+.models3 {
+    margin-left:5px ;
+
+
+}
+
+
+.about__Garmin {
+    margin-right: 300px;
+    margin-top: 250px;
+}
+
+/*Garmin*/
+.Garmin {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 220px;
+}
+
+
+/*image-garmin*/
+.image3__Garmin {
+    margin-top: -650px;
+    margin-left: 970px;
+    justify-content: center;
+    width: 300px;
+    height: 450px;
+}
+
+/*description-Garmin*/
+.description__Garmin {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*buy-Garmin*/
+.buy__Garmin {
+    display: flex;
+    margin-left: 145px;     
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top: 225px;
+}
+
+/*price-Garmin*/
+.price__Garmin {
+    font-size:32px;
+    margin-top: -55px;
+    margin-bottom: 0%;
+    margin-left: 450px;
+    margin-right: 400px;
+}
+
+
+
+.about__HT06 {
+    margin-right: 300px;
+    margin-top: 180px;
+}
+
+.models4 {
+    margin-left:-45px ;
+}
+
+
+/*HT06*/
+.HT06 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 440px;
+}
+
+/*description-HT06*/
+.description-HT06 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*image-HT06*/
+.image4__HT06 {
+    margin-top: -520px;
+    margin-left: 850px;
+    justify-content: center;
+    width: 500px;
+    height: 750px;
+}
+
+/*buy-watch*/
+.buy__watch {
+    display: flex;
+    margin-left: 145px;      
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top: 25px;
+}
+
+/*price-HT06*/
+.price__HT06 {
+    font-size:32px;
+    margin-top: -55px;
+    margin-bottom: ;
+    margin-left: 450px;
+    margin-right: 400px;
+}
+
+
+.about__L13 {
+    margin-right: 300px;
+    margin-top: 180px;
+}
+
+
+.models5 {
+    margin-right:50px
+}
+
+/*L13*/
+.L13 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 300px;
+}
+
+/*description-L13*/
+.description__L13 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+
+/*photo-L13*/
+.image5__L13 {
+    margin-top: -640px;
+    margin-left: 830px;
+    justify-content: center;
+    width: 600px;
+    height: 750px;
+}
+
+/*buy-L13*/
+
+.buy__L13 {
+    display: flex;
+    margin-left: 145px;    
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top:-75px;
+}
+
+
+/*price-L13*/
+.price__L13 {
+    font-size:32px;
+    margin-top: -50px;
+    margin-bottom: 0%;
+    margin-left: 450px;
+    margin-right: 300px;
+}
+
+
+.about__Watch-X6 {
+    
+    margin-right: 300px;
+    margin-top: 50px;
+}
+
+.models6 {
+    margin-top: 250px;
+    margin-right:290px
+}
+
+/*X6*/
+.X6 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 700px;
+}
+
+/*description-X6*/
+.description__X6 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*photo-X6*/
+.image6__X6 {
+      margin-top: -550px;
+    margin-left: 650px;
+    justify-content: center;
+    width: 600px;
+    height: 750px;
+}
+
+
+/*buy-X6*/
+.buy__X6 {
+    display: flex;
+    margin-left: 8px;    
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top:-250px;
+}
+
+/*price-X6*/
+.price__X6 {
+    font-size:32px;
+    margin-top: -110px;
+    margin-bottom: 0%;
+    margin-left: 340px;
+    margin-right: 400px;
+}
+
+
+
+
+.about__W26 {
+    margin-right: 300px;
+    margin-top: 150px;
+}
+
+
+
+.models7 {
+    margin-right:50px
+}
+
+/*W16*/
+.W26 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 480px;
+}
+
+/*description-W26*/
+.description__W26 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*photo W26*/
+.image7__ {
+    margin-top: -600px;
+    margin-right: 20px;
+    margin-left: 750px;
+    justify-content: center;
+    width: 600px;
+    height: 750px;
+}
+
+/*buy W26*/
+.buy__W26 {
+    display: flex;
+    margin-left: 5px;    
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top:-150px;
+}
+
+/*price W26*/
+.price__W26 {
+    font-size:32px;
+    margin-top: -50px;
+    margin-bottom: 0%;
+    margin-left: 350px;
+    margin-right: 400px;
+
+}
+
+
+
+
+
+
+.about__Samsung_Watch5_Pro {
+    margin-right: 300px;
+    margin-top: 250px;
+}
+
+
+
+
+.models8{
+    margin-right:50px
+}
+
+/*Samsung*/
+.Samsung__Watch5 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 210px;
+}
+
+/*description__Samsung*/
+.description__Samsung {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*photo-Samsung*/
+.image8__ {
+    margin-top: -550px;
+    margin-left: 750px;
+    justify-content: center;
+    width: 600px;
+    height: 750px;
+}
+
+
+/*buy-Samsung*/
+.buy__Samsung {
+    display: flex;
+    margin-left: 5px;    
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top:-150px;
+}
+
+
+/*price-Samsung*/
+.price__Samsung {
+    font-size:32px;
+    margin-top: -60px;
+    margin-bottom: 0%;
+    margin-left: 340px;
+    margin-right: 400px;
+}
+
+
+
+
+
+
+
+
+
+.about__UWatch_A1 {
+    margin-right: 300px;
+    margin-top: 180px;
+}
+
+
+
+.models10 {
+    margin-right:50px
+}
+
+
+/*UWatch-A1*/
+.UWatch_A1 {
+    font-size: 60px;
+    line-height:130px;
+    margin-bottom: 43px;
+    margin-right: 350px;
+}
+
+/*description-UWatch*/
+.description__UWatch_A1_Smart_Watch {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 140px;
+    font-weight: 30px; 
+    margin-bottom: 10px;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+/*photo-UWatch*/
+.image9__ {
+    margin-top: -650px;
+    margin-left: 850px;
+    justify-content: center;
+    width: 600px;
+    height: 750px;
+}
+
+/*buy-UWatch*/
+.buy__UWatch_A1 {
+    display: flex;
+    margin-left: 5px;    
+    display: block;
+    width: 278px;
+    height: 82px;
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    line-height: 82px;
+    text-align: center;
+    margin-top:-80px 
+}
+
+
+/*price-UWatch*/
+.price__UWatch_A1 {
+    font-size:32px;
+    margin-top: -50px;
+    margin-bottom: 0%;
+    margin-left: 340px;
+    margin-right: 400px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
